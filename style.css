@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+body {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#app {
+  width: 500px;
+}
+
+fieldset {
+  border-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+legend {
+  font-size: 1.5em;
+  text-decoration: underline;
+  font-weight: 700;
+}
+br {
+  height: 1em;
+}
+#input-name , #input-dir , #input-mail , #input-sub , #msg {
+  display: block;
+  width: 100%;
+}
+
+.ob {
+  color: tomato;
+  
+}
+
+select {
+  width: 20%;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.check-group , .radio-group {
+  margin-bottom: 0.7em;
+}
+
+#btn-enviar {
+  position: relative;
+  left: 90%;
+  border-style: none;
+  width: 6em;
+  height: 3em;
+  padding: 0;
+  font-family: 'Chakra Petch', sans-serif;
+}
